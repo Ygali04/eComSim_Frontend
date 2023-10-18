@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string>[INSERT API KEY HERE]</string>
+	<string>${{ secrets.Google_API_key }}</string>
 	<key>GCM_SENDER_ID</key>
 	<string>138572143453</string>
 	<key>PLIST_VERSION</key>
